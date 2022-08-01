@@ -9,10 +9,8 @@ Luego, se requiere <b>Python 3</b>. Para instalar Python 3 ejecutamos:<br><br>
 sudo yum install python3<br><br>
 sudo yum install python3-devel<br><br>
 <b>PIP3</b> es necesario para instalar librerías de Python.<br><br>
-```
 sudo yum install epel-release<br><br>
 sudo yum install python3-pip<br><br>
-```
 <b>Psutil</b> es la librería que se encarga de que Python pueda ejecutar procesos.<br><br>
 pip3 install psutil<br><br>
 Para almacenar ciertos datos, se requiere una Base de Datos hecha en <b>PostgreSQL</b>. <br><br>
