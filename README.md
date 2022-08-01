@@ -3,17 +3,17 @@ HIPS o Host Intrusion Prevention System es un paquete de software instalado que 
 <br>Instalación:<br>
 El software fue diseñado para correr en distribuciones de Linux. Este HIPS fue desarrollado en CentOS 7.<br>
 Para la utilización del software, Centos debe tener ciertas aplicaciones instaladas, las siguientes instalaciones deben hacerse desde nuestro usuario propio y ejecutarse como Root solo de ser necesario, ya que algunas instalaciones pueden dañar el sistema operativo si se hacen con un usuario Root.<br>
-Primeramente, debemos asegurarnos de que tenemos GCC instalado:<br>
+Primeramente, debemos asegurarnos de que tenemos <b>GCC</b> instalado:<br>
 sudo yum install gcc<br>
-Luego, se requiere Python 3. Para instalar Python 3 ejecutamos:<br>
+Luego, se requiere <b>Python 3</b>. Para instalar Python 3 ejecutamos:<br>
 sudo yum install python3<br>
 sudo yum install python3-devel<br>
-PIP3 es necesario para instalar librerías de Python.<br>
+<b>PIP3</b> es necesario para instalar librerías de Python.<br>
 sudo yum install epel-release<br>
 sudo yum install python3-pip<br>
-Psutil es la librería que se encarga de que Python pueda ejecutar procesos.<br>
+<b>Psutil</b> es la librería que se encarga de que Python pueda ejecutar procesos.<br>
 pip3 install psutil<br>
-Para almacenar ciertos datos, se requiere una Base de Datos hecha en PostgreSQL. <br>
+Para almacenar ciertos datos, se requiere una Base de Datos hecha en <b>PostgreSQL</b>. <br>
 sudo yum install postgresql-client<br>
 sudo yum install postgres1l-devel<br>
 sudo systemctl start postgresql<br>
