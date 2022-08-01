@@ -31,7 +31,7 @@ Para seguir debemos configurar nuestro pg_hba.conf. Esto lo hacemos de la siguie
 cd /var/lib/pgsql/data/<br>
 vi pg_hba.conf<br>
 Una vez abierto el archivo, lo debemos dejar como muestra la siguiente imagen:<br>
- ![image](https://user-images.githubusercontent.com/70355676/182169189-2975e797-5f3a-4ffb-ae29-0f0969f432e7.png)<br>
+<img src="https://user-images.githubusercontent.com/70355676/182169189-2975e797-5f3a-4ffb-ae29-0f0969f432e7.png" alt="pg_hba"/><br>
 
 En la imagen el ADDRESS que aparece como 192.168.0.24/32 debe ser reemplazado por el IP de la maquina que la utilizará. <br>
 Guardamos el archivo y reiniciamos el servicio.<br>
